@@ -5,7 +5,7 @@ const twoProg = 185;
 const kidsProg = 130;
 
 function addOneProg () {
-    return oneProg * .4;
+    console.log('adding one program', oneProg * .4);
 }
 
 function addTwoProg () {
@@ -15,10 +15,6 @@ function addTwoProg () {
 function addAdditionalKids () {
     return kidsProg * .4
 }
-
-console.log('adding additional person w/ one program', addOneProg())
-console.log('adding additional person w/ discount', addTwoProg());
-console.log('adding additional kids w/ discount', addAdditionalKids());
 
 
 
