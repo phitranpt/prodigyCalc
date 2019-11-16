@@ -1,20 +1,22 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="client.js"></script>
-    <script src="jquery-3.3.1.min.js" charset="utf-8"></script>
+    <script src="scripts/client.js"></script>
+    <script src="scripts/jquery-3.3.1.min.js" charset="utf-8"></script>
     <title>Prodigy Membership Calculator</title>
 </head>
 <body>
     <h1>Test</h1>
-    <form>
-        One Program:<br>
-        <input type="number" name="One Program" id='one'><br>
-        Two Programs:<br>
-        <input type="number" name="Two Programs">
-    </form>
-    <button onclick='addOneProg()'>Click me</button>
+    <div id='inputDiv'>
+        <input type="text"  id=oneProgram>
+        <input type="text"  id=twoProgram>
+        <input type="text" id=kidsProgram/>
+      </br>
+      </br>
+        <button id=calculate>calculate</button>
+    </div>
 </body>
 </html>
