@@ -16,7 +16,6 @@ function addAdditionalKids () {
     return kidsProg * .4
 }
 
-$( document ).ready (function() {
-    $('#calculate').on('click', console.log('button works!')
-    )
-})
+$(document).ready(function () {
+    //your code here
+  });
