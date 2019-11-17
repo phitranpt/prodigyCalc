@@ -9,8 +9,9 @@ $(document).ready(function () {
         $('table tbody').append(newRow);
     });
 
-    $( '#deleteButton' ).on( 'click', function() {
+    $( '#myTable' ).on( 'click', '#deleteButton', function() {
         console.log('delete button works');
+        $(this).closest('tr').remove();
     });
 
 
